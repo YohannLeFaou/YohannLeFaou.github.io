@@ -1,0 +1,17 @@
+# Setup
+title:        Personal Page of Yohann Le Faou
+tagline:      
+baseurl:      "/yohannlefaou"
+paginate:     1
+
+# About/contact
+author:
+  name:       Yohann Le Faou
+  url:        http://yohannlefaou.fr
+
+# Gems
+gems:
+  - jekyll-paginate
+
+#Others
+markdown: kramdown
