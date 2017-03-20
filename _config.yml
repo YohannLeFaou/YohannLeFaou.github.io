@@ -1,13 +1,13 @@
 # Setup
 title:        Personal Page of Yohann Le Faou
 tagline:      
-baseurl:      "/yohannlefaou"
+baseurl:      ""
 paginate:     1
 
 # About/contact
 author:
   name:       Yohann Le Faou
-  url:        https://yohannlefaou.github.io/
+  url:        https://yohannlefaou.github.io
 
 # Gems
 gems:
