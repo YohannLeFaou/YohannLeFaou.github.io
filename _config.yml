@@ -10,7 +10,7 @@ author:
   url:        https://yohannlefaou.github.io
 
 # Gems
-gems:
+plugins:
   - jekyll-paginate
 
 #Others
