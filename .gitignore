@@ -1,3 +1,36 @@
+# Jupyter notebook files
+.ipynb_checkpoints/
+
+# Python compiled files
+*__pycache__
+*.pyc
+
+# Temporary files
+*.swp
+
+# Spyder projets
+.spyproject/
+
+# Visual Studio project files
+*.pyproj
+*.sln
+*.suo
+.vs/
+.cache/
+
+# ppt files
+*.pptx
+*.ppt
+
+# word files
+*.docx
+seance1/informations complémentaires - séance1.pdf
+
+
+# Setuptools files
+*.egg-info
+
+
 _site
 notes
 to_do_list
