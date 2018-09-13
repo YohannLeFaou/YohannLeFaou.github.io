@@ -190,3 +190,17 @@ a:hover { text-decoration: underline; }
 .site-footer-owner { display: block; font-weight: bold; }
 
 .site-footer-credits { color: #819198; }
+
+.column {
+    float: left;
+}
+
+.left {
+    width: 20%;
+}
+
+.right {
+    width: 45%;
+}
+
+
