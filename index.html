@@ -1,144 +1,79 @@
----
-layout: default
-title: {{Personal Page of Yohann Le Faou}}
----
-
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <title>Webpage of Yohann Le Faou</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Yohann Le Faou" />
-    <meta name="description" content="Webpage of Yohann Le Faou, PhD student at Sorbonne Université" />
-    <meta name="theme-color" content="#157878">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/cayman.css">
-    <style>
-    * {
-    box-sizing: border-box;
-    }
-    
-    /* Create two unequal columns that floats next to each other */
-    .column {
-    float: left;
-    padding: 10px;
-    }
-    
-    .left {
-    width: 50%;
-    }
-    
-    .right {
-    width: 45%;
-    }
-    
-    /* Clear floats after the columns */
-    .row:after {
-    content: "";
-    display: table;
-    clear: both;
-    }
-    </style>
-  </head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yohann Le Faou</title>
+  <meta name="author" content="Yohann Le Faou">
+  <meta name="description" content="Personal page of Yohann Le Faou, machine learning researcher">
+  <meta name="theme-color" content="#157878">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="page-header">
+    <h1 class="project-name">Personal Page of Yohann Le Faou</h1>
+    <nav>
+      <a href="https://github.com/YohannLeFaou" class="btn">GitHub</a>
+      <a href="https://www.kaggle.com/yooona" class="btn">Kaggle</a>
+      <a href="https://linkedin.com/in/yohann-le-faou-5a1a0b108" class="btn">LinkedIn</a>
+      <a href="https://twitter.com/YnLeFa" class="btn">Twitter</a>
+    </nav>
+  </header>
 
-  <body>
+  <main class="main-content">
+    <section class="intro">
+      <div>
+        <h1>Welcome to my personal page</h1>
+        <p>I am currently working at <a href="https://www.zelros.com">Zelros AI</a> as a machine learning researcher. Prior to that I was a PhD student at <a href="http://www.lpsm.paris">LPSM</a> under the supervision of <a href="https://sites.google.com/view/sitepersonneldolivierlopez/home/">Olivier Lopez</a> (LPSM).</p>
+        <p>My fields of research used to be survival analysis, machine learning for censored data and applications to insurance. I am currently working on monitoring and ethical aspects of machine learning, with a special focus on data drift.</p>
+      </div>
+      <img src="images/photo_ylf.jpg" alt="Photo of Yohann Le Faou">
+    </section>
 
-    <div id="home">
-    <h1>Welcome to my personal page</h1>
-    <br>
-    
-    <div class="row">
-      <div class="column left">
-      <p>I am currently working at <a href="https://www.zelros.com">Zelros AI</a> as a machine learning researcher. Prior to that I was a PhD student at <a href="http://www.lpsm.paris">LPSM</a> under the supervision of <a href = "https://sites.google.com/view/sitepersonneldolivierlopez/home/">Olivier Lopez</a> (LPSM).</p>
-      
-      <p>My fields of research used to be survival analysis, machine learning for censored data and applications to insurance. I am currently working on monitoring and ethical aspects of machine learning, with a special focus on data drift.</p>
-      </div>
-      <div class="column right">
-        <img src="/images/photo_ylf.jpg" style="width: 80%; height: 80%"/>
-      </div>
-    </div>
-    
-      
-      <script>/*
-      <h1>Research</h1>
-      My fields of research are:
-      <ul>
-      <li>Survival Analysis</li>
-      <li>Machine Learning for censored data</li>
-      <li>Applications to insurance</li>
-      </ul>
-      */</script>
-      
+    <section>
       <h1>Publications</h1>
+
       <h2>Journal</h2>
-        <ul>
-            <li>G. Gerbert, Y. Le Faou, O. Lopez, M. Trupin (2020). <a href="https://hal.archives-ouvertes.fr/hal-01807623">The impact of churn on client value in health insurance, evaluation using a random forest under random censoring.</a> <i>Journal of the American Statistical Association.</i>
-                <br>
-                <a href="https://github.com/YohannLeFaou/impact-churn-health-insurance">[code]</a> &bull;
-                <a href="/publications/2018-RF-censored/slides-LEFAOU_Yohann-IME-2017.pdf">[talk - IME 2017]</a> &bull;
-                <a href="/publications/2018-RF-censored/Poster-MascotNum-2017.pdf">[poster - Mascot Num 2017]</a>
-            </li>
-        </ul>
+      <ul>
+        <li>
+          G. Gerbert, Y. Le Faou, O. Lopez, M. Trupin (2020). <a href="https://hal.archives-ouvertes.fr/hal-01807623">The impact of churn on client value in health insurance, evaluation using a random forest under random censoring.</a> <i>Journal of the American Statistical Association.</i>
+          <br>
+          <a href="https://github.com/YohannLeFaou/impact-churn-health-insurance">[code]</a> &bull;
+          <a href="publications/2018-RF-censored/slides-LEFAOU_Yohann-IME-2017.pdf">[talk - IME 2017]</a> &bull;
+          <a href="publications/2018-RF-censored/Poster-MascotNum-2017.pdf">[poster - Mascot Num 2017]</a>
+        </li>
+      </ul>
 
       <h2>Preprint</h2>
       <ul>
-          <li>Y. Le Faou, O. Lopez (2018). <a href="https://hal.archives-ouvertes.fr/hal-01886196">A nonparametric conditional copula model for successive duration times, with application to insurance subscription.</a> <i>Preprint.</i>
-              <br>
-              <a href="https://github.com/YohannLeFaou/copula-successive-duration-times">[code]</a> &bull;
-              <a href="/publications/2018-copula-successive-censored-times/Poster-Data Science Summer School-2018.pdf">[poster - DS3 2018]</a>
-          </li>
+        <li>
+          Y. Le Faou, O. Lopez (2018). <a href="https://hal.archives-ouvertes.fr/hal-01886196">A nonparametric conditional copula model for successive duration times, with application to insurance subscription.</a> <i>Preprint.</i>
+          <br>
+          <a href="https://github.com/YohannLeFaou/copula-successive-duration-times">[code]</a> &bull;
+          <a href="publications/2018-copula-successive-censored-times/Poster-Data%20Science%20Summer%20School-2018.pdf">[poster - DS3 2018]</a>
+        </li>
       </ul>
-      
+
       <h2>PhD thesis</h2>
       <ul>
-          <li>Y. Le Faou (2019). <a href="https://tel.archives-ouvertes.fr/tel-02308989">Contributions à la modélisation des données de durée en présence de censure : application à l'étude des résiliations de contrats d'assurance santé.</a>
-          </li>
+        <li>Y. Le Faou (2019). <a href="https://tel.archives-ouvertes.fr/tel-02308989">Contributions à la modélisation des données de durée en présence de censure : application à l'étude des résiliations de contrats d'assurance santé.</a></li>
       </ul>
-      
-      <script>/*
-      <h2>Accepted/Published Papers</h2> à compléter par la suite...
-      <h2>Academic Publications</h2>
-      */</script>
-      
-      <h1>Softwares</h1>
-      <ul>
-          <li><b>CinnaMon</b> (2021), a Python library for the monitoring of machine learning systems that focus on data drift. See the <a href="https://github.com/zelros/cinnamon">github</a> and the <a href="https://www.youtube.com/watch?v=S3qoBBwSS1I">video presentation</a> in french (slides <a href="/publications/2021-cinnamon/Detect_explain_and_correct_data_drift_in_a_machine_learning_system.pdf">here</a>).</li>
-          <li><b>sword</b> (2018), a R package to fit regression models to right censored data. See the <a href="https://github.com/YohannLeFaou/sword">github</a> and the <a href="https://rawgit.com/YohannLeFaou/sword/master/inst/doc/sword_vignette.html">package vignette.</a></li>
-      </ul>
-      
-      </br>
-      <p>email : lefaou [dot] yohann [at] gmail [dot] com</p>
-      
-      <script>/* j'ai supprimé ce qui suit
-      <h1>News</h1>
-      
-      <ul>
-      <li>Release of <b>sword</b>, a R package to fit regression models, and especially Random Forest, to right censored data. See the <a href="https://github.com/YohannLeFaou/sword">package repository</a> and the <a href="https://rawgit.com/YohannLeFaou/sword/master/inst/doc/sword_vignette.html">package vignette</a></li>
-      <li>We ranked 2nd at Data Science Game 2017 ! <a href = "https://github.com/YohannLeFaou/Data-Science-Game-2017-final">github repo</a>
-      </ul>
-      */</script>
+    </section>
 
-      <script>/*<h1>Seminar and Presentations</h1>
-
+    <section>
+      <h1>Software</h1>
       <ul>
-      <li>04/07/2017 : Talk at (IME) Insurance Mathematics & Economics 2017 : <a href="{{ site.url }}/downloads/slides_LEFAOU_Yohann_IME_2017.pdf">slides</a></li>
-      <li>22/03/2017 : Poster at MASCOT NUM 2017 - Random Forest for Regression of a Censored Variable - <a href="{{ site.url }}/downloads/Poster__Random_Forest_for_regression_of_a_censored_variable.pdf">poster</a></li>
-      <li>24/01/2017 : Talk at PhD students seminar at LSTA - <a href="http://www.lsta.lab.upmc.fr/fr/seminaires/gt_doctorants2/kk/24_01_2017_yohann_le_faou_lsta.html">summary</a></li>
-      <li>13/01/2017 : Talk at PARTY 2017 - Random Forest for Regression of a Censored Variable - <a href="{{ site.url }}/downloads/Slides___Random_Forest_for_regression_of_a_censored_variable.pdf">slides</a></li>
-      <li>27/01/2016 : Talk at PhD students seminar at LSTA - Données censurées, exemples et applications</li>
+        <li><b>CinnaMon</b> (2021), a Python library for the monitoring of machine learning systems that focuses on data drift. See the <a href="https://github.com/zelros/cinnamon">GitHub repository</a> and the <a href="https://www.youtube.com/watch?v=S3qoBBwSS1I">video presentation</a> in French (slides <a href="publications/2021-cinnamon/Detect_explain_and_correct_data_drift_in_a_machine_learning_system.pdf">here</a>).</li>
+        <li><b>sword</b> (2018), an R package to fit regression models to right-censored data. See the <a href="https://github.com/YohannLeFaou/sword">GitHub repository</a> and the <a href="https://rawgit.com/YohannLeFaou/sword/master/inst/doc/sword_vignette.html">package vignette</a>.</li>
       </ul>
-      
-      */</script>
-      
-<script>/*
-      <h1>News</h1>
-      <ul class="posts">
-      {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.url }}/_posts">{{ post.title }}</a></li>
-      {% endfor %}
-      </ul>*/
-</script>
-    </div>
-  </body>
+    </section>
+
+    <footer class="site-footer">
+      <p>Email: lefaou [dot] yohann [at] gmail [dot] com</p>
+    </footer>
+  </main>
+</body>
 </html>
